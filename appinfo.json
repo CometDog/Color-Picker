@@ -1,16 +1,13 @@
 {
-    "appKeys": {
-        
-    },
+    "appKeys": {},
     "capabilities": [
+        ""
     ],
     "companyName": "James Downs",
     "longName": "Color Picker",
     "projectType": "native",
     "resources": {
-        "media": [
-
-        ]
+        "media": []
     },
     "sdkVersion": "3",
     "shortName": "Color Picker",

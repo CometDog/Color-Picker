@@ -72,6 +72,10 @@ static void click_config_provider(void *context) {
   window_single_click_subscribe(BUTTON_ID_UP, up_click_handler);
   window_single_click_subscribe(BUTTON_ID_SELECT, select_click_handler);
   window_single_click_subscribe(BUTTON_ID_DOWN, down_click_handler);
+  
+  window_single_repeating_click_subscribe(BUTTON_ID_UP, 300, up_click_handler);
+  window_single_repeating_click_subscribe(BUTTON_ID_SELECT, 300, select_click_handler);
+  window_single_repeating_click_subscribe(BUTTON_ID_DOWN, 300, down_click_handler);
 }
 
 /********************************************************* 
